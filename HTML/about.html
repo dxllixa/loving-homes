@@ -9,7 +9,10 @@
 <body>
   <header class="site-header">
     <div class="container nav-wrap">
-      <a class="brand" href="index.html">Loving Homes</a>
+      <a class="brand-logo" href="index.html">
+        <img src="../Images/logo.svg" alt="Loving Homes logo" class="brand-name">
+      </a>
+      <a class="brand-name" href="index.html">Loving Homes</a>
       <button class="menu-toggle" type="button" aria-label="Open menu">Menu</button>
       <nav class="site-nav">
         <a href="index.html">Home</a>
@@ -19,6 +22,12 @@
         <a href="#">Gallery</a>
         <a href="contact.html">Contact</a>
       </nav>
+      <form class="site-search" id="siteSearch" role="search">
+        <label class="sr-only" for="siteSearchInput">Search the site</label>
+        <input id="siteSearchInput" name="q" type="search" placeholder="Search pages or services">
+        <button class="btn btn-secondary site-search-button" type="submit">Search</button>
+        <p class="search-status" aria-live="polite"></p>
+      </form>
     </div>
   </header>
   <main class="page-main">
@@ -60,16 +69,22 @@
   <footer class="site-footer">
     <div class="container footer-grid">
       <div class="footer-contact">
-        <p>Email: xx</p>
-        <p>Phone: xx</p>
+        <p>Email: lovinghomes@gmail.com</p>
+        <p>Phone: +852 98291028</p>
       </div>
       <div class="footer-social">
-        <a href="https://facebook.com" target="_blank">Facebook</a>
-        <a href="https://instagram.com" target="_blank">Instagram</a>
-        <a href="https://twitter.com" target="_blank">Twitter</a>
+        <a href="https://facebook.com/loving_homes" target="_blank">Facebook</a>
+        <a href="https://instagram.com/loving_homes" target="_blank">Instagram</a>
+        <a href="https://twitter.com/loving_homes" target="_blank">Twitter</a>
       </div>
     </div>
   </footer>
   <script src="../JS/main.js"></script>
 </body>
 </html>
+
+
+
+
+
+
